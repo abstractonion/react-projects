@@ -6,7 +6,8 @@ export default function ShopPage() {
         <section key={product.id} className="flex flex-col items-left hover:shadow-3xl">
             <p>{product.id}</p>
             <h2>{product.name}</h2>
-            <p>{product.brand}</p> 
+            <p>{product.category}</p>
+            <p><i>{product.brand}</i></p>
         </section>
     ))
     return (
