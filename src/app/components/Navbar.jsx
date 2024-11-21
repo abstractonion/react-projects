@@ -16,6 +16,10 @@ export default function Navbar() {
             <li>Categories</li>
             </Link>
 
+            <Link href="/shop">
+            <li>Shop</li>
+            </Link>
+
             <Link href="/contact">
             <li>Contact</li>
             </Link>
