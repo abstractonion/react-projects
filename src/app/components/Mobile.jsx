@@ -14,7 +14,7 @@ export default function() {
 
   return (
     <div className="md:hidden">
-        <ul className="flex flex-row justify-evenly bg-blue-700 text-white h-16 font-regular capitalize px-4">
+        <ul className="flex flex-row justify-between items-center bg-blue-700 text-white h-12 font-regular capitalize px-4">
             <li><Link href={'/'}>{pageTitle}</Link></li>
             <li onClick={handleNav} className='cursor-pointer'><GiHamburgerMenu/></li>
         </ul>

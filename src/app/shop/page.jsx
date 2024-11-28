@@ -2,6 +2,7 @@ import {products} from "../components/data"
 import styles from "../components/product.module.css"
 import Image from 'next/image'
 import Link from "next/link"
+import Search from "../components/Search"
 
 export default function ShopPage() {
     const productCat = products.map(product => (
@@ -16,8 +17,11 @@ export default function ShopPage() {
         </section>
     ))
     return (
-        <div className={styles.product}>
-            {productCat}
+        <div>
+            <Search/>
+            <div className={styles.product}>
+                {productCat}
+            </div>
         </div>
     )
 }
