@@ -4,9 +4,10 @@ import Link from 'next/link'
 import { useState } from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
-export default function() {
+export default function Mobile() {
     const pageTitle = ["Home"]
     const [open, setOpen] = useState(false)
+    //Mobile.displayName = "Mobile"; // Explicitly define the display name
 
     function handleNav(){
         setOpen(!open)
